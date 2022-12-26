@@ -6,9 +6,10 @@ Output array =  [0, 0, 0, 0, 0, 1, 1, 1, 1, 1]
 [Problem Link](https://practice.geeksforgeeks.org/problems/segregate-0s-and-1s5106/1?utm_source=gfg&utm_medium=article&utm_campaign=bottom_sticky_on_article)
  
 #### Efficient Solution 
+Time Complexity:- O(N) , Space Complexity:- O(1)
 ~~~
 void segregate0and1(int arr[], int n) {
-        // code here
+        
         int count=0;
         for(int i=0 ;i<n; i++)
         {
